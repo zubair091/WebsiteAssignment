@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 98vw;
+    height: 48vh;
+    margin: 0 auto;
+    background-color: white;
+    color: rgb(92, 92, 92);
+}
+.content{
+    padding: 38px;
+    margin: 10vh 20vw;
+    justify-content: space-between;
+}
+.content h4{
+    font-size: 20px;
+    word-spacing: 2px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.content p{
+    font-size: 16px;
+    word-spacing: 1px;
+    font-weight: 200;
+}
+.btn{
+    padding: 10px;
+    margin: 21px;
+    width: 20vh;
+    border-radius: 15px;
+    background-color: #66ddcf;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.image{
+    width: 170px;
+    padding: 4px;
+    height: 55vh;
+    float: right;
+    margin: 7vh 27vw;
+    position: absolute;  
+    top: 13px;
+    right: 0px;
+}
+.sec-container{
+    width:98vw;
+    height: 45vh;
+    display: flex;
+    margin: 0 auto;
+    background-image: url("image/div\ back\ ground.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+   
+}
+.para {
+    margin: 82px -20px;
+color: #66ddcf;
+}
+.para h3{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+.third-container{
+    width: 98vw;
+    height: 45vh;
+    margin: 0 auto;
+    position: relative;
+    font-size: 12px;
+  
+    text-align: center;
+    padding: 30px;
+    color: rgb(92, 92, 92);
+    background-color: white;
+}
+.heading{
+    font-size: 1.9rem;     
+}
+.ourMission{
+    font-size: 1.9rem;     
+    margin: 30px;
+    padding: 10px;
+}
+.paragraph{
+    line-height: 1rem;
+}
+.four-container{
+    width:98vw;
+    height: 80vh;
+    margin: 0 auto;
+    background-image: url("image/div\ back\ ground.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.textContent{
+    padding: 40px
+   
+}
+.imageDiv{
+    
+    border: 5px dashed white;
+    width: 30vw;
+    height: 40vh;
+    display: inline-block;
+    margin: 20px;
+    
+}
+.imageDiv p{
+    color: white;
+    padding: 110px;
+    font-size: 1.3rem;
+}
+.paragraph-1{
+    line-height: 1rem;
+    
+
+}
+.heading-1{
+    font-size: 1.9rem;
+   
+     
+}
+.four-container span{
+    color: red;
+    
+}
+.four-container a{
+color: white;
+}
